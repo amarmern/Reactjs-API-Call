@@ -37,8 +37,13 @@ function App(props) {
               <img src={person.avatar} alt="Avatar" />
 
               <div class="container">
-                {person.email} {person.first_name}
-                {person.last_name}
+                <h4>
+                  <b>
+                    <label> {person.first_name} </label>
+                    <label> {person.last_name} </label>
+                  </b>
+                </h4>
+                {person.email}
               </div>
             </div>
           </li>
